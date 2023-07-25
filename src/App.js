@@ -24,7 +24,7 @@ function App() {
   useEffect(()=>{
     const winner = checkWinner()
     if(winner){
-      
+      alert(`you won`)
       setGameState(initialState)
     }
     
